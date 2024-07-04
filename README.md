@@ -1,11 +1,62 @@
-### SMARTPHONE BASED RECOGNITION OF HUMAN ACTIVITIES
+# Smartphone-based Recognition of Human Activities
 
-- Worked on processing of raw data that included acceleration and angular velocities of a person’s arm
-movement in three directions.
-- The data was derived from accelerometer and gyroscopic measurements
-- The preprocessed and normalized data was used to train machine learning models for predicting the activity
-performed by the user at a given point in time.
-- Performed Exploratory Data Analysis by using various models such as PCA, LDA, SVM, t-SNE as well as using
-some time series models such as ARMA, ARIMA etc.
-- Also worked on hybrid models to improve the accuracy.
-- Completed the project with an impressive accuracy of 95.16% by using SVM model with linear kernel
+This course project involves recognizing human activities using data from smartphone sensors.
+
+## Features
+
+- **Data Preprocessing**: Normalization of accelerometer and gyroscopic data
+- **Machine Learning Model**: Support Vector Machine (SVM) with linear kernel
+- **Exploratory Data Analysis**: PCA, LDA
+- **Time Series Models**: ARMA, ARIMA
+- **Hybrid Modeling Techniques**: Integration of ML algorithms and time series analysis
+
+## Tech Stack
+
+- **Python**, **scikit-learn**, **NumPy**, **pandas**
+
+## Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/rsrajahnsa/IML-Course-Project-Smartphone-based-Recognition-of-Human-Activities-.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd IML-Course-Project-Smartphone-based-Recognition-of-Human-Activities-
+    ```
+3. Install the required packages:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+1. Run the Jupyter notebook:
+    ```bash
+    jupyter notebook Human_Activity_Recognition.ipynb
+    ```
+
+## Files
+
+- `Human_Activity_Recognition.ipynb`: Jupyter notebook with code and analysis
+- `data/`: Directory containing the dataset
+
+## Dataset
+
+The dataset contains accelerometer and gyroscopic data from smartphone sensors during various human activities.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Acknowledgements
+
+Thanks to the course instructors and the open-source community.
+
+---
+
+For more details, visit the [GitHub repository](https://github.com/rsrajahnsa/IML-Course-Project-Smartphone-based-Recognition-of-Human-Activities-).
