@@ -33,12 +33,12 @@ This course project involves recognizing human activities using data from smartp
 
 1. Run the Jupyter notebook:
     ```bash
-    jupyter notebook IML(1).ipynb
+    jupyter notebook IML_Project(1).ipynb
     ```
 
 ## Files
 
-- `IML(1).ipynb`: Jupyter notebook with code and analysis
+- `IML_Project(1).ipynb`: Jupyter notebook with code and analysis
 - `data/`: Directory containing the dataset
 
 ## Dataset
